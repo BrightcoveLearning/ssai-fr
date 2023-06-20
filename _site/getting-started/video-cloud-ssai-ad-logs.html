@@ -1,0 +1,1172 @@
+﻿<!DOCTYPE html>
+<html lang="fr"> 
+    <head>
+        <title>Journal de suivi des annonces SSAI</title>
+        
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Le journal de suivi des annonces SSAI est une nouvelle fonctionnalité qui vise à fournir des détails sur le fonctionnement des annonces SSAI. Cette fonctionnalité est destinée à la vidéo à la demande et en direct.">
+        
+        <!-- Google Font -->
+        <link href="/assets/s-site-assets-stylesheets/fonts/poppins.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/s-site-assets-stylesheets/fonts/articulat-site.css">
+        <link href="/assets/s-site-assets-stylesheets/fonts/source-code-pro.css" rel="stylesheet">
+        
+        <!-- FontAwesome JS-->
+        
+        <script src="https://kit.fontawesome.com/d67c74a882.js" crossorigin="anonymous"></script>  
+        
+        <!-- Plugins CSS -->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+        <link rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/plugins/simplelightbox/simple-lightbox.min.css">
+
+        <!-- Theme CSS -->  
+        <link id="theme-style" rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/css/theme.css">
+        <link rel="stylesheet" href="/assets/s-site-assets-stylesheets/prism.css">
+        <link rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/custom-css/styles.css">
+
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XBJC11HF8Z"></script>
+        <script translate="no">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-XBJC11HF8Z');
+        </script>
+        <script src="/assets/s-site-assets-scripts/sixth-sense.js"></script>
+        <script src="/assets/s-site-assets-scripts/sajari-head.js"></script>
+        <script src="/assets/s-site-assets-scripts/feather.min.js"></script>
+
+    </head> 
+
+    <body class="docs-page">
+        
+
+<header class="header fixed-top">
+  <div class="branding docs-branding">
+    <div class="container-fluid position-relative py-2">
+      <div class="docs-logo-wrapper">
+        <button id="docs-sidebar-toggler" class="docs-sidebar-toggler"
+          type="button">
+          <span></span> <span></span> <span></span>
+        </button>
+        <div class="site-logo"><a class="navbar-brand" href="https://support.brightcove.com/" style="margin-left: 15px;"> <img class="logo-icon me-2" src="/assets/s-site-assets-template-stylesheets/images/bc_logo_black_1@1x.png" alt="logo" style="margin-bottom: 9px;"/>
+            <!-- <span class="logo-text">BRIGHTCOVE</span> -->
+          </a></div>
+      </div><!--//docs-logo-wrapper-->
+
+      <div class="docs-top-utilities d-flex justify-content-end
+        align-items-center">
+        
+        <!-- Search bar -->
+        <div id="nav-search-box" class="top-search-box d-none d-lg-flex" style="margin-right: 10px ;"></div>
+
+<select id="site_select" class="form-select select-focus" style="width:
+          20%; margin-right: 10px;" translate="no">
+          <option value="">Other Brightcove Docs</option>
+          
+          
+          <option value="https://support.brightcove.com" translate="no">Documentation Home</option>
+          
+          
+          
+          <option value="https://support.brightcove.com/" translate="no">-- VIDEO CLOUD --</option>
+          
+          
+          
+          <option value="https://studio.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Studio</option>
+          
+          
+          
+          <option value="https://mstudio.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Marketing Studio</option>
+          
+          
+          
+          <option value="https://player.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Player Development</option>
+          
+          
+          
+          <option value="https://apis.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Platform APIs</option>
+          
+          
+          
+          <option value="https://sdks.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Device SDKs</option>
+          
+          
+          
+          <option value="https://integrations.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Integrations and CMS Connectors</option>
+          
+          
+          
+          <option value="https://general.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud General Information</option>
+          
+          
+          
+          <option value="https://support.brightcove.com/" translate="no">-- VIDEO ESSENTIALS --</option>
+          
+          
+          
+          <option value="https://audience-insights.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Audience Insights</option>
+          
+          
+          
+          <option value="https://beacon-help.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Studio</option>
+          
+          
+          
+          <option value="https://beacon.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Classic</option>
+          
+          
+          
+          <option value="https://corptv.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;CorpTV</option>
+          
+          
+          
+          <option value="https://live.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Live</option>
+          
+          
+          
+          <option value="https://zencoder.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Zencoder</option>
+          
+          
+          
+          <option value="https://support.brightcove.com/" translate="no">-- VIDEO CLOUD ADD-ONS --</option>
+          
+          
+          
+          <option value="https://gallery.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Gallery</option>
+          
+          
+          
+          <option value="https://studio.support.brightcove.com/social/index.html" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Social</option>
+          
+          
+          
+          <option value="https://interactivity.support.brightcove.com/index.html" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Interactivity</option>
+          
+          
+          
+          <option value="https://ssai.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove SSAI</option>
+          
+          
+          
+          <option value="https://campaign.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Campaign</option>
+          
+          
+        </select>
+
+        <select id="language_select" class="form-select select-focus" style="width: 10%;"
+          onchange="doGTranslate(this);" translate="no">
+          <!-- <option value="">Select Language</option> -->
+          <option value="en|en" translate="No">English</option>
+          <option value="en|zh-TW" translate="No">繁體中文</option>
+          <option value="en|fr" translate="No">Français</option>
+          <option value="en|de" translate="No">Deutsche</option>
+          <option value="en|ja" translate="No">日本語</option>
+          <option value="en|ko" translate="No">한국어</option>
+          <option value="en|es" translate="No">Español</option>
+        </select>
+
+        <script translate="no">
+          /* <![CDATA[ */
+          function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
+          /* ]]> */
+        </script>
+      </div>
+    </div>
+  </div>
+</header><!--//header-->
+
+<div class="docs-wrapper">
+  <div id="docs-sidebar" class="docs-sidebar" style="padding-right: 15px;">
+    <div id="nav-search-box" class="top-search-box d-lg-none p-3"></div>
+    <div class="row">
+      
+        <div id="side_nav" style="margin-left: 1em; display: inline-block; border-right: 1px solid #e5e5e6; padding-right: 1em;">
+          
+          <nav class="docs-nav sidenav" aria-label="Main">
+            <ul class="site-nav" style="list-style-type: none;">
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/index.html">Accueil</a></li>
+            
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/getting-started/index.html"><span class="theme-icon-holder me-2"> <i class="fa-solid fa-plus"></i></span>&nbsp;</a>Pour commencer</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/getting-started/video-cloud-ssai-overview.html">Présentation SSAI</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="https://studio.support.brightcove.com/admin/general/configuring-server-side-ad-settings.html">Configuration des paramètres d'annonce côté serveur</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/getting-started/video-cloud-ssai-ad-logs.html" aria-current="page">Journal de suivi des annonces SSAI</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/vod/guides/index.html"><span class="theme-icon-holder me-2"> <i class="fa-solid fa-plus"></i></span>&nbsp;</a>Guides vidéo à la demande</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="https://player.support.brightcove.com/plugins/implementing-server-side-ads-brightcove-player.html">Implémentation de SSAI avec Brightcove Player</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="https://sdks.support.brightcove.com/features/implementing-server-side-ads-native-player-sdks.html">Implémentation de SSAI avec les SDK natifs</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/vod/guides/ssai-non-bc-players.html">Implémentation de SSAI avec des joueurs autres que Brightcove</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/vod/guides/ssai-ad-block-detection-and-auto-failover.html">SSAI : Détection de blocage publicitaire et basculement automatique</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="https://apis.support.brightcove.com/ssai/getting-started/video-cloud-ssai-ad-config-api.html">API de configuration publicitaire SSAI Video Cloud</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/vod/guides/video-cloud-ssai-ad-tag-validation.html">Validation des balises publicitaires SSAI Video Cloud</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/vod/guides/ad-error-beacons-ssai.html">Balises d'erreur d'annonce avec SSAI</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="https://apis.support.brightcove.com/ssai/references/index.html"><span class="theme-icon-holder me-2"> <i class="fa-solid fa-plus"></i></span>&nbsp;</a>Références en matière de vidéo à la demande</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="https://apis.support.brightcove.com/ssai/references/reference.html">Référence de l'API SSAI</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="https://apis.support.brightcove.com/ssai/references/ssai-api-error-reference.html">Référence d'erreur de l'API SSAI</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="https://player.support.brightcove.com/plugins/changelog/server-side-ads-plugin-changelog.html">Plugin Publicités côté serveur Changelog</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/live/guides/index.html"><span class="theme-icon-holder me-2"> <i class="fa-solid fa-plus"></i></span>&nbsp;</a>Guides en direct</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="https://live.support.brightcove.com/live-module/implementing-server-side-ads-live-module.html">Implémentation de SSAI dans le module Live</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="https://apis.support.brightcove.com/live-api/ssai/live-api-server-side-ad-insertion-ssai.html">API Live Brightcove : Insertion d'annonces côté serveur (SSAI)</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="https://apis.support.brightcove.com/live-api/ssai/live-api-cue-points-and-ad-beacons-ssai.html">API en direct : Points de repère et balises publicitaires avec SSAI</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="https://player.support.brightcove.com/advertising/client-side-preroll-with-live-ssai.html">Publicités Preroll côté client avec SSAI en direct</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/live/guides/overview-player-enhancements-live-ssai.html">Aperçu: Améliorations du lecteur pour Live SSAI</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/live/guides/implementing-player-enhancements-live-ssai.html">Implémentation des améliorations de lecteur pour Live SSAI</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/live/references/index.html"><span class="theme-icon-holder me-2"> <i class="fa-solid fa-plus"></i></span>&nbsp;</a>Références en direct</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/live/references/reference.html">Référence de l'API en direct</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="https://apis.support.brightcove.com/live-api/references/live-api-error-messages.html">API en direct : Messages d'erreur</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="https://live.support.brightcove.com/release-notes/live-api-release-notes.html">Notes de version de l'API en direct</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/support/index.html"><span class="theme-icon-holder me-2"> <i class="fa-solid fa-plus"></i></span>&nbsp;</a>Soutien aux développeurs</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/viewing-brightcove-system-status-page.html">Affichage de la page État du système Brightcove</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/contact-sales.html">Contactez le service commercial</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/opening-case-with-brightcove-support.html">Ouverture d'un dossier de support</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/reset-support-portal-password.html">Réinitialiser le mot de passe du portail</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+          </ul>
+          </nav>
+        </div>
+      </div>
+    </div><!--//docs-sidebar-->
+  </div>
+</div>
+
+<div style="margin-top: 20px;">
+  <div class="docs-content" style="padding-bottom: 0px;">
+    <div class="container">
+      <div class="docs-overview">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            
+            <li class="breadcrumb-item"><a class="theme-link" href="/">Accueil</a></li>
+            
+            
+            <li class="breadcrumb-item"><a class="theme-link" href="/getting-started/">Commencer</a></li>
+            
+            
+            
+            <li class="breadcrumb-item active" aria-current="page">Journal de suivi des annonces SSAI</li>
+            
+            
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="docs-content">
+  <div class="container">
+    <div class="docs-overview py-5">
+      
+      <div class="centered-inpage-nav" id="centered_inpage_nav">
+        <nav id="centered_toc">
+          <select id="centered_in_page_toc" class="form-select select-focus"></select>
+        </nav>
+      </div>
+      <br/>
+      
+      
+<h1>Journal de suivi des annonces SSAI</h1>
+<article class="bcls-article">
+  <summary>Le journal de suivi des annonces SSAI est une nouvelle fonctionnalité qui vise à fournir des détails sur le fonctionnement des annonces SSAI. Cette fonctionnalité est destinée à la vidéo à la demande et en direct.</summary>
+  <section class="bcls-section">
+    <h2 id="Introduction">Introduction</h2>
+    <p>Brightcove fournit des journaux de suivi des publicités pour vous aider à comprendre les performances de vos flux en direct et vidéos compatibles SSAI du point de vue de la monétisation et également pour résoudre tout problème. Ces journaux incluent les requêtes adressées aux serveurs publicitaires : requêtes publicitaires, erreurs et événements de suivi.</p>
+    <p>Les journaux vous permettent également de calculer des métriques de performances :</p>
+    <ul>
+      <li>Demandes d'annonces : Nombre de fois qu'un serveur publicitaire a été sollicité pour une annonce.</li>
+      <li>Événements de suivi publicitaire déclenchés : nombre d'événements de balises déclenchés par le serveur BC SSAI. Il peut s'agir d'une ventilation par type : <code translate="no">AdStart</code></code>, <code translate="no">AdComplete</code></code>, <code translate="no">AdfirstQuartile</code></code>, <code translate="no">Admidpoint</code></code>, <code translate="no">AdthirdQuartile</code></code>, <code translate="no">AdcreativeView</code></code></li>
+      <li>Taux de diffusion des annonces : rapport entre le nombre total de demandes d'annonces réussies et le nombre total de demandes d'annonces</li>
+    </ul>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Setup">Configuration</h2>
+    <p>Pour activer les journaux de suivi des publicités SSAI, vous devez procéder comme suit :</p>
+    <ol class="bcls-tasklist-restart">
+      <li>Créez un compartiment S3 dans votre région préférée.</li>
+      <li>Donnez à Brightcove Support le nom de votre compartiment et la région.</li>
+      <li>Ajoutez la politique de sécurité qui vous est fournie par le support pour permettre à Brightcove d'écrire dans votre compartiment.</li>
+      <li>Une fois que le seau S3 a été configuré, pour commencer à enregistrer une configuration publicitaire, définissez <code translate="no">ad_tracking_sample_percentage</code></code> à votre <a href="https://apis.support.brightcove.com/live-api/references/reference.html#operation/CreateAdConfiguration">configuration de publicité en direct</a> et/ou à votre <a href="https://apis.support.brightcove.com/ssai/getting-started/video-cloud-ssai-ad-config-api.html#Create_an_ad_configuration">configuration de publicité à la demande</a>.</li>
+    </ol>
+    <!-- <aside class="bcls-aside bcls-aside--information language-editable">Note that having logs sent automatically to an S3 bucket is optional. If you do not wish to do this, you can still request logs from <a href="https://supportportal.brightcove.com">Brightcove Support</a>.</aside> -->
+  </section>
+  <section class="bcls-section">
+    <h2 id="File_format">Format de fichier</h2>
+    <p>Les fichiers journaux seront organisés sur votre panier S3 selon ce schéma :</p>
+    <pre><code translate="no">/yyyy/MM/dd/HH/&lt;random-string&gt;/&lt;delivery stream name&gt;-&lt;delivery stream version&gt;-&lt;year&gt;-&lt;month&gt;-&lt;day&gt;-&lt;hour&gt;-&lt;minute&gt;-&lt;second&gt;-&lt;uuid&gt;</code></code></pre>
+    <p><code translate="No">&lt;random-string&gt;</code></code> et <code translate="No">&lt;/uuid&gt;</code></code>sont différents pour chaque lot, et les journaux sont regroupés en lots de 5 Mo ou 300 secondes de données. Les journaux des différentes sessions et des différents travaux seront mélangés dans les lots.</p>
+    <h3>Exemple de chemin/fichier</h3>
+    <pre><code translate="no">/2021/07/17/00/00HwB2cbPB2/prod-ssai-ad-tracking-4040098940001-1-2021-07-17-00-37-09-caeb9e2e-8b54-42f6-b4f7-cbddfc5090e6</code></code></pre>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Sample_log_entries">Exemples d'entrées de journal</h2>
+    <p>Vous trouverez ci-dessous quelques exemples d'entrées de journal.</p>
+    <details>
+      <summary>Exemple d'entrée de journal : Créatif</summary>
+      <pre class="line-numbers"><code class="language-json" translate="No">{
+  "session_id": "9b393cbf9a4d4528a850c79a283b8b25",
+  "summary_id": "adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b-9b393cbf9a4d4528a850c79a283b8b25",
+  "adbreak_id": "adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b",
+  "account_id": "5100000201001",
+  "live_account_id": "e807026ec740429985d04b91cf936f81",
+  "live_job_id": "992ab149ce3e40b6a5b9c6d9842a0979",
+  "kind": "Creative",
+  "timestamp": "2021-06-28T23:12:09.632710435Z",
+  "span_id": 3223646445953404770,
+  "parent_span_id": 3004116763771491424,
+  "state": "active",
+  "fk": "ad-id-1",
+  "source_url": "https://somesourceasset.com/adcreative.mp4"
+}</code></code></pre>
+    </details>
+    <details>
+      <summary>Exemple d'entrée de journal : Demande d'annonce</summary>
+      <pre class="line-numbers"><code class="language-json" translate="No">{
+  "session_id": "9b393cbf9a4d4528a850c79a283b8b25",
+  "summary_id": "adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b-9b393cbf9a4d4528a850c79a283b8b25",
+  "adbreak_id": "adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b",
+  "account_id": "5100000201001",
+  "live_account_id": "e807026ec740429985d04b91cf936f81",
+  "live_job_id": "992ab149ce3e40b6a5b9c6d9842a0979",
+  "kind": "AdRequest",
+  "timestamp": "2021-06-28T23:12:09.585696184Z",
+  "span_id": 5596747569705325007,
+  "parent_span_id": 5124250183191295144,
+  "url": "https://ad-provider-host.com/path/to/ad-handler",
+  "request_headers": {
+    "Referer": [
+      "https://referer-host.com"
+    ],
+    "User-Agent": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15"
+    ],
+    "X-Forwarded-For": [
+      "127.0.0.1"
+    ]
+  },
+  "response_headers": {
+    "Accept-Ranges": [
+      "bytes"
+    ],
+    "Age": [
+      "66004"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Content-Length": [
+      "1289"
+    ],
+    "Content-Type": [
+      "application/xml"
+    ],
+    "Date": [
+      "Mon, 28 Jun 2021 04:52:06 GMT"
+    ],
+    "Etag": [
+      "\"0801eec0f0f1c1378b409f0b1eaa241e\""
+    ],
+    "Last-Modified": [
+      "Wed, 28 Dec 2016 20:10:29 GMT"
+    ],
+    "Server": [
+      "AmazonS3"
+    ],
+    "Via": [
+      "1.1 56c69262ecfa7873b40572ba8a323243.cloudfront.net (CloudFront)"
+    ],
+    "X-Amz-Cf-Id": [
+      "2SvJiWD30gamE4-w6KL3z9shrGpU2ZAvujfsBTJbC9KSoAy0UDzDBw=="
+    ],
+    "X-Amz-Cf-Pop": [
+      "HIO50-C1"
+    ],
+    "X-Cache": [
+      "Hit from cloudfront"
+    ]
+  },
+  "status_code": 200,
+  "duration": 1910203645,
+  "provider": "vast_3"
+}</code></code></pre>
+    </details>
+    <details>
+      <summary>Exemple d'entrée de journal : Résumé de la session</summary>
+      <pre class="line-numbers"><code class="language-json" translate="No">{
+  "account_id": "5100000201001",
+  "session_id": "9b393cbf9a4d4528a850c79a283b8b25",
+  "live_account_id": "e807026ec740429985d04b91cf936f81",
+  "live_job_id": "992ab149ce3e40b6a5b9c6d9842a0979",
+  "live_app_id": "a51db89789e0413a87ee356bed6965b0",
+  "region": "us-west-2",
+  "kind": "SessionSummary",
+  "duration": 1923000000,
+  "status_code": 200,
+  "timestamp": "2021-06-28T23:12:11.499Z",
+  "adbreak_id": "adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b",
+  "summary_id": "adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b-9b393cbf9a4d4528a850c79a283b8b25",
+  "odur": 32000000000,
+  "rdur": 32000000000,
+  "sdur": 34000000000,
+  "ad_count": 1,
+  "client_only_tracking": false,
+  "sls": false,
+  "ads": [
+    {
+      "type": "midroll",
+      "fk": "ad-id-1",
+      "imps": [
+        {
+          "type": "AdStart",
+          "url": "https://ad-provider-host.com/api/tracking?event=impression"
+        },
+        {
+          "type": "AdFirstQuartile",
+          "url": "https://ad-provider-host.com/api/tracking?event=firstQuartile"
+        },
+        {
+          "type": "AdMidpoint",
+          "url": "https://ad-provider-host.com/api/tracking?event=midpoint"
+        },
+        {
+          "type": "AdThirdQuartile",
+          "url": "https://ad-provider-host.com/api/tracking?event=thirdQuartile"
+        },
+        {
+          "type": "AdComplete",
+          "url": "https://ad-provider-host.com/api/tracking?event=complete"
+        }
+      ],
+      "cdur": 30322000000
+    }
+  ]
+}</code></code></pre>
+    </details>
+    <details>
+      <summary>Exemple d'entrée de journal : Impression</summary>
+      <pre class="line-numbers"><code class="language-json" translate="No">{
+  "account_id": "5100000201001",
+  "region": "us-west-2",
+  "kind": "Impression",
+  "impression_type": "AdStart",
+  "summary_id": "adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b-9b393cbf9a4d4528a850c79a283b8b25",
+  "adbreak_id": "adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b",
+  "live_account_id": "e807026ec740429985d04b91cf936f81",
+  "live_job_id": "992ab149ce3e40b6a5b9c6d9842a0979",
+  "session_id": "9b393cbf9a4d4528a850c79a283b8b25",
+  "live_app_id": "a51db89789e0413a87ee356bed6965b0",
+  "timestamp": "2021-06-28T23:12:11.499Z",
+  "url": "https://ad-provider-host.com/api/tracking?event=impression",
+  "request_headers": {
+    "Connection": "keep-alive",
+    "X-Forwarded-For": "127.0.0.1",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+    "Referer": "https://referer-host.com"
+  },
+  "status_code": 200,
+  "duration": 114524248.00000153
+}</code></code></pre>
+    </details>
+    <h3>Lot complet</h3>
+    <p>Les exemples ci-dessus sont des entrées distinctes. Brightcove les agrégera, séparés par de nouvelles lignes, et écrira le journal agrégé dans votre compartiment S3. Vous trouverez ci-dessous un exemple de fichier journal complet.</p>
+    <details>
+      <summary>Exemple de fichier journal complet</summary>
+      <pre class="line-numbers"><code class="language-json" translate="No">{"session_id":"9b393cbf9a4d4528a850c79a283b8b25","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b","account_id":"5100000201001","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","kind":"Creative","timestamp":"2021-06-28T23:12:09.632710435Z","span_id":3223646445953404770,"parent_span_id":3004116763771491424,"state":"active","fk":"ad-id-1","source_url":"https://somesourceasset.com/adcreative.mp4"}
+  {"session_id":"9b393cbf9a4d4528a850c79a283b8b25","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b","account_id":"5100000201001","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","kind":"AdRequest","timestamp":"2021-06-28T23:12:09.585696184Z","span_id":5596747569705325007,"parent_span_id":5124250183191295144,"url":"https://ad-provider-host.com/path/to/ad-handler","request_headers":{"Referer":["https://referer-host.com"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15"],"X-Forwarded-For":["127.0.0.1"]},"response_headers":{"Accept-Ranges":["bytes"],"Age":["66004"],"Connection":["keep-alive"],"Content-Length":["1289"],"Content-Type":["application/xml"],"Date":["Mon, 28 Jun 2021 04:52:06 GMT"],"Etag":["\"0801eec0f0f1c1378b409f0b1eaa241e\""],"Last-Modified":["Wed, 28 Dec 2016 20:10:29 GMT"],"Server":["AmazonS3"],"Via":["1.1 56c69262ecfa7873b40572ba8a323243.cloudfront.net (CloudFront)"],"X-Amz-Cf-Id":["2SvJiWD30gamE4-w6KL3z9shrGpU2ZAvujfsBTJbC9KSoAy0UDzDBw=="],"X-Amz-Cf-Pop":["HIO50-C1"],"X-Cache":["Hit from cloudfront"]},"status_code":200,"duration":1910203645,"provider":"vast_3"}
+  {"account_id":"5100000201001","session_id":"9b393cbf9a4d4528a850c79a283b8b25","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","live_app_id":"a51db89789e0413a87ee356bed6965b0","region":"us-west-2","kind":"SessionSummary","duration":1923000000,"status_code":200,"timestamp":"2021-06-28T23:12:11.499Z","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b-9b393cbf9a4d4528a850c79a283b8b25","odur":32000000000,"rdur":32000000000,"sdur":34000000000,"ad_count":1,"client_only_tracking":false,"sls":false,"ads":[{"type":"midroll","fk":"ad-id-1","imps":[{"type":"AdStart","url":"https://ad-provider-host.com/api/tracking?event=impression"},{"type":"AdFirstQuartile","url":"https://ad-provider-host.com/api/tracking?event=firstQuartile"},{"type":"AdMidpoint","url":"https://ad-provider-host.com/api/tracking?event=midpoint"},{"type":"AdThirdQuartile","url":"https://ad-provider-host.com/api/tracking?event=thirdQuartile"},{"type":"AdComplete","url":"https://ad-provider-host.com/api/tracking?event=complete"}],"cdur":30322000000}]}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdStart","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"9b393cbf9a4d4528a850c79a283b8b25","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:12:11.499Z","url":"https://ad-provider-host.com/api/tracking?event=impression","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":114524248.00000153}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdFirstQuartile","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"9b393cbf9a4d4528a850c79a283b8b25","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:12:11.501Z","url":"https://ad-provider-host.com/api/tracking?event=firstQuartile","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":94157248.00014868}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdMidpoint","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"9b393cbf9a4d4528a850c79a283b8b25","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:12:11.502Z","url":"https://ad-provider-host.com/api/tracking?event=midpoint","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":9150570.999830961}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdThirdQuartile","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"9b393cbf9a4d4528a850c79a283b8b25","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:12:11.503Z","url":"https://ad-provider-host.com/api/tracking?event=thirdQuartile","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":13312409.999780357}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdComplete","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-0e96c29df5214a4195e7e94f9cf90c8b","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"9b393cbf9a4d4528a850c79a283b8b25","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:12:11.504Z","url":"https://ad-provider-host.com/api/tracking?event=complete","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":12268809.00003016}
+  {"session_id":"9b393cbf9a4d4528a850c79a283b8b25","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c","account_id":"5100000201001","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","kind":"Creative","timestamp":"2021-06-28T23:14:35.099703094Z","span_id":6674394482725440815,"parent_span_id":1318535851542687167,"state":"active","fk":"ad-id-1","source_url":"https://somesourceasset.com/adcreative.mp4"}
+  {"session_id":"9b393cbf9a4d4528a850c79a283b8b25","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c","account_id":"5100000201001","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","kind":"AdRequest","timestamp":"2021-06-28T23:14:35.037747217Z","span_id":879241329021924545,"parent_span_id":2738404345413976285,"url":"https://ad-provider-host.com/path/to/ad-handler","request_headers":{"Referer":["https://referer-host.com"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15"],"X-Forwarded-For":["127.0.0.1"]},"response_headers":{"Accept-Ranges":["bytes"],"Age":["66150"],"Connection":["keep-alive"],"Content-Length":["1289"],"Content-Type":["application/xml"],"Date":["Mon, 28 Jun 2021 04:52:06 GMT"],"Etag":["\"0801eec0f0f1c1378b409f0b1eaa241e\""],"Last-Modified":["Wed, 28 Dec 2016 20:10:29 GMT"],"Server":["AmazonS3"],"Via":["1.1 1b0911478686968732f973d6e5e31d11.cloudfront.net (CloudFront)"],"X-Amz-Cf-Id":["gwjYU97w_Ko7_VOEJo_I7mQIia4aUxI6NhpL79QBwcGovwgqsiQQ2Q=="],"X-Amz-Cf-Pop":["HIO50-C1"],"X-Cache":["Hit from cloudfront"]},"status_code":200,"duration":62517876,"provider":"vast_3"}
+  {"account_id":"5100000201001","session_id":"9b393cbf9a4d4528a850c79a283b8b25","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","live_app_id":"a51db89789e0413a87ee356bed6965b0","region":"us-west-2","kind":"SessionSummary","duration":74000000,"status_code":200,"timestamp":"2021-06-28T23:14:35.103Z","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c-9b393cbf9a4d4528a850c79a283b8b25","odur":32000000000,"rdur":32000000000,"sdur":34000000000,"ad_count":1,"client_only_tracking":false,"sls":false,"ads":[{"type":"midroll","fk":"ad-id-1","imps":[{"type":"AdStart","url":"https://ad-provider-host.com/api/tracking?event=impression"},{"type":"AdFirstQuartile","url":"https://ad-provider-host.com/api/tracking?event=firstQuartile"},{"type":"AdMidpoint","url":"https://ad-provider-host.com/api/tracking?event=midpoint"},{"type":"AdThirdQuartile","url":"https://ad-provider-host.com/api/tracking?event=thirdQuartile"},{"type":"AdComplete","url":"https://ad-provider-host.com/api/tracking?event=complete"}],"cdur":30322000000}]}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdStart","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"9b393cbf9a4d4528a850c79a283b8b25","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:14:35.104Z","url":"https://ad-provider-host.com/api/tracking?event=impression","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":68253645.00004798}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdFirstQuartile","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"9b393cbf9a4d4528a850c79a283b8b25","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:14:35.105Z","url":"https://ad-provider-host.com/api/tracking?event=firstQuartile","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":73142498.99983406}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdMidpoint","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"9b393cbf9a4d4528a850c79a283b8b25","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:14:35.106Z","url":"https://ad-provider-host.com/api/tracking?event=midpoint","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":7360496.000153944}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdThirdQuartile","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"9b393cbf9a4d4528a850c79a283b8b25","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:14:35.107Z","url":"https://ad-provider-host.com/api/tracking?event=thirdQuartile","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":15530145.999975502}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdComplete","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c-9b393cbf9a4d4528a850c79a283b8b25","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-522e68923faf435ebc5710ec9ba12f8c","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"9b393cbf9a4d4528a850c79a283b8b25","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:14:35.108Z","url":"https://ad-provider-host.com/api/tracking?event=complete","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":18099798.00018482}
+  {"session_id":"3799e473b53d47c1a4aba1a96282ae63","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115-3799e473b53d47c1a4aba1a96282ae63","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115","account_id":"5100000201001","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","kind":"Creative","timestamp":"2021-06-28T23:17:50.848526142Z","span_id":1072414950932142870,"parent_span_id":3759119308175968927,"state":"active","fk":"ad-id-1","source_url":"https://somesourceasset.com/adcreative.mp4"}
+  {"session_id":"3799e473b53d47c1a4aba1a96282ae63","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115-3799e473b53d47c1a4aba1a96282ae63","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115","account_id":"5100000201001","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","kind":"AdRequest","timestamp":"2021-06-28T23:17:50.803309913Z","span_id":5501083171814814828,"parent_span_id":2777154131847882503,"url":"https://ad-provider-host.com/path/to/ad-handler","request_headers":{"Referer":["https://referer-host.com"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15"],"X-Forwarded-For":["127.0.0.1"]},"response_headers":{"Accept-Ranges":["bytes"],"Age":["66345"],"Connection":["keep-alive"],"Content-Length":["1289"],"Content-Type":["application/xml"],"Date":["Mon, 28 Jun 2021 04:52:06 GMT"],"Etag":["\"0801eec0f0f1c1378b409f0b1eaa241e\""],"Last-Modified":["Wed, 28 Dec 2016 20:10:29 GMT"],"Server":["AmazonS3"],"Via":["1.1 1cc6ed0d2d3dd9529ce544f9dfe61a53.cloudfront.net (CloudFront)"],"X-Amz-Cf-Id":["6ChJOWTNhXQ54nrI-0NfiI3HELyzVmDKFmi-6JhCYyzzcnh-FejM5A=="],"X-Amz-Cf-Pop":["HIO50-C1"],"X-Cache":["Hit from cloudfront"]},"status_code":200,"duration":463516026,"provider":"vast_3"}
+  {"account_id":"5100000201001","session_id":"3799e473b53d47c1a4aba1a96282ae63","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","live_app_id":"a51db89789e0413a87ee356bed6965b0","region":"us-west-2","kind":"SessionSummary","duration":481000000,"status_code":200,"timestamp":"2021-06-28T23:17:51.274Z","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115-3799e473b53d47c1a4aba1a96282ae63","odur":32000000000,"rdur":32000000000,"sdur":34000000000,"ad_count":1,"client_only_tracking":false,"sls":false,"ads":[{"type":"midroll","fk":"ad-id-1","imps":[{"type":"AdStart","url":"https://ad-provider-host.com/api/tracking?event=impression"},{"type":"AdFirstQuartile","url":"https://ad-provider-host.com/api/tracking?event=firstQuartile"},{"type":"AdMidpoint","url":"https://ad-provider-host.com/api/tracking?event=midpoint"},{"type":"AdThirdQuartile","url":"https://ad-provider-host.com/api/tracking?event=thirdQuartile"},{"type":"AdComplete","url":"https://ad-provider-host.com/api/tracking?event=complete"}],"cdur":30322000000}]}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdStart","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115-3799e473b53d47c1a4aba1a96282ae63","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"3799e473b53d47c1a4aba1a96282ae63","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:17:51.276Z","url":"https://ad-provider-host.com/api/tracking?event=impression","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":100628732.00001195}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdFirstQuartile","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115-3799e473b53d47c1a4aba1a96282ae63","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"3799e473b53d47c1a4aba1a96282ae63","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:17:51.277Z","url":"https://ad-provider-host.com/api/tracking?event=firstQuartile","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":72044457.99998939}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdMidpoint","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115-3799e473b53d47c1a4aba1a96282ae63","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"3799e473b53d47c1a4aba1a96282ae63","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:17:51.278Z","url":"https://ad-provider-host.com/api/tracking?event=midpoint","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":7449264.000169933}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdThirdQuartile","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115-3799e473b53d47c1a4aba1a96282ae63","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"3799e473b53d47c1a4aba1a96282ae63","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:17:51.279Z","url":"https://ad-provider-host.com/api/tracking?event=thirdQuartile","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":7948938.000015914}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdComplete","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115-3799e473b53d47c1a4aba1a96282ae63","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-f1eb781318d847eea4941009c37fd115","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"3799e473b53d47c1a4aba1a96282ae63","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:17:51.280Z","url":"https://ad-provider-host.com/api/tracking?event=complete","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":9952213.999815285}
+  {"session_id":"3799e473b53d47c1a4aba1a96282ae63","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-20063d6dae794906af1251c6948400db-3799e473b53d47c1a4aba1a96282ae63","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-20063d6dae794906af1251c6948400db","account_id":"5100000201001","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","kind":"Creative","timestamp":"2021-06-28T23:21:31.192038303Z","span_id":2134906764417527191,"parent_span_id":8679583036437874814,"state":"active","fk":"ad-id-1","source_url":"https://somesourceasset.com/adcreative.mp4"}
+  {"session_id":"3799e473b53d47c1a4aba1a96282ae63","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-20063d6dae794906af1251c6948400db-3799e473b53d47c1a4aba1a96282ae63","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-20063d6dae794906af1251c6948400db","account_id":"5100000201001","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","kind":"AdRequest","timestamp":"2021-06-28T23:21:31.154993034Z","span_id":8570463038803610161,"parent_span_id":3420437761948447498,"url":"https://ad-provider-host.com/path/to/ad-handler","request_headers":{"Referer":["https://referer-host.com"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15"],"X-Forwarded-For":["127.0.0.1"]},"response_headers":{"Accept-Ranges":["bytes"],"Age":["66566"],"Connection":["keep-alive"],"Content-Length":["1289"],"Content-Type":["application/xml"],"Date":["Mon, 28 Jun 2021 04:52:06 GMT"],"Etag":["\"0801eec0f0f1c1378b409f0b1eaa241e\""],"Last-Modified":["Wed, 28 Dec 2016 20:10:29 GMT"],"Server":["AmazonS3"],"Via":["1.1 41e349e25dc4bc856d0e5d2c162428a0.cloudfront.net (CloudFront)"],"X-Amz-Cf-Id":["PdYetvq3mfyZyeYyzW4zBsRGTaopewgHBTkDGKU3d4CgwrKATC8HYQ=="],"X-Amz-Cf-Pop":["HIO50-C1"],"X-Cache":["Hit from cloudfront"]},"status_code":200,"duration":37220442,"provider":"vast_3"}
+  {"account_id":"5100000201001","session_id":"3799e473b53d47c1a4aba1a96282ae63","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","live_app_id":"a51db89789e0413a87ee356bed6965b0","region":"us-west-2","kind":"SessionSummary","duration":51000000,"status_code":200,"timestamp":"2021-06-28T23:21:31.195Z","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-20063d6dae794906af1251c6948400db","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-20063d6dae794906af1251c6948400db-3799e473b53d47c1a4aba1a96282ae63","odur":32000000000,"rdur":32000000000,"sdur":34000000000,"ad_count":1,"client_only_tracking":false,"sls":false,"ads":[{"type":"midroll","fk":"ad-id-1","imps":[{"type":"AdStart","url":"https://ad-provider-host.com/api/tracking?event=impression"},{"type":"AdFirstQuartile","url":"https://ad-provider-host.com/api/tracking?event=firstQuartile"},{"type":"AdMidpoint","url":"https://ad-provider-host.com/api/tracking?event=midpoint"},{"type":"AdThirdQuartile","url":"https://ad-provider-host.com/api/tracking?event=thirdQuartile"},{"type":"AdComplete","url":"https://ad-provider-host.com/api/tracking?event=complete"}],"cdur":30322000000}]}
+  {"account_id":"5100000201001","region":"us-west-2","kind":"Impression","impression_type":"AdStart","summary_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-20063d6dae794906af1251c6948400db-3799e473b53d47c1a4aba1a96282ae63","adbreak_id":"adBreak-992ab149ce3e40b6a5b9c6d9842a0979-20063d6dae794906af1251c6948400db","live_account_id":"e807026ec740429985d04b91cf936f81","live_job_id":"992ab149ce3e40b6a5b9c6d9842a0979","session_id":"3799e473b53d47c1a4aba1a96282ae63","live_app_id":"a51db89789e0413a87ee356bed6965b0","timestamp":"2021-06-28T23:21:31.197Z","url":"https://ad-provider-host.com/api/tracking?event=impression","request_headers":{"Connection":"keep-alive","X-Forwarded-For":"127.0.0.1","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15","Referer":"https://referer-host.com"},"status_code":200,"duration":106990529.99960259}</code></pre>
+    </details>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Log_fields">Champs de journal</h2>
+    <h3 id="Common_fields">Champs communs</h3>
+    <p>Tous les types de journaux partagent ces champs.</p>
+    <table class="bcls-table">
+      <caption class="bcls-caption--table">Champs communs</caption>
+      <thead class="bcls-table__head">
+        <tr>
+          <th>Champ</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody class="bcls-table__body">
+        <tr>
+          <td><code translate="No">session_id</code></code></td>
+          <td>chaîne</td>
+          <td>ID de session. Unique par spectateur.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">summary_id</code></td>
+          <td>chaîne</td>
+          <td>ID de résumé de session. Pour la VOD, identique à SessionID. Pour le Live, unique par session par coupure publicitaire.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">adbreak_id</code></td>
+          <td>chaîne</td>
+          <td>Identifiant de coupure publicitaire. Unique par coupure publicitaire</td>
+        </tr>
+        <tr>
+          <td><code translate="No">account_id</code></td>
+          <td>chaîne</td>
+          <td>ID de compte Video Cloud.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">live_account_id</code></td>
+          <td>chaîne</td>
+          <td>ID de compte en direct.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">video_id</code></td>
+          <td>chaîne</td>
+          <td>ID vidéo Video Cloud.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">live_job_id</code></td>
+          <td>chaîne</td>
+          <td>ID d'emploi en direct.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">live_app_id</code></td>
+          <td>chaîne</td>
+          <td>ID d'application SSAI en direct.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">title_id</code></td>
+          <td>chaîne</td>
+          <td>Identifiant du titre VOD.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">kind</code></td>
+          <td>chaîne</td>
+          <td>Type de journal pour ce journal. <code translate="No">Creative</code></code>, <code translate="no">AdRequest</code></code>, <code translate="no">SessionSummary</code></code>ou <code translate="no">Impression</code></code>.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">timestamp</code></td>
+          <td>chaîne</td>
+          <td>Horodatage du journal. Marshalled au format RFC3339. Par ex. « 2021-06-03T 11:39:22 .787Z ».</td>
+        </tr>
+        <tr>
+          <td><code translate="No">span_id</code></td>
+          <td>unité 64</td>
+          <td>SpanID est un ID de trace pour ce journal.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">parent_span_id</code></td>
+          <td>unité 64</td>
+          <td>ParentSpanID fait référence à un SpanID d'un journal parent. Cette valeur peut être utile pour suivre la chaîne d'appels de wrapper VAST.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">error</code></td>
+          <td>booléen</td>
+          <td>True s'il y a eu une erreur associée à ce journal. Sa signification dépend du log Kind.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Champs HTTP</h3>
+    <p>Ces champs sont partagés entre les types de journaux destinés aux requêtes HTTP adressées à des services externes comme un fournisseur d'annonces.</p>
+    <p>Les types de journaux qui ont des champs HTTP sont :</p>
+    <ul>
+      <li><a href="#AdRequest_fields">Demande d'annonce</a></li>
+      <li><a href="#Impression_fields">Impression</a></li>
+    </ul>
+    <table class="bcls-table">
+      <caption class="bcls-caption--table">Champs HTTP</caption>
+      <thead class="bcls-table__head">
+        <tr>
+          <th>Champ</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody class="bcls-table__body">
+        <tr>
+          <td><code translate="No">url</code></td>
+          <td>chaîne</td>
+          <td>URL de demande.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">request_headers</code></td>
+          <td>map[chaîne][]chaîne</td>
+          <td>En-têtes envoyés dans la demande. Carte avec les noms d'en-tête pour les clés et la liste de chaînes pour les valeurs d'en-tête.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">response_headers</code></code></td>
+          <td>map[chaîne][]chaîne</td>
+          <td>En-têtes reçus en réponse. Carte avec les noms d'en-tête pour les clés et la liste de chaînes pour les valeurs d'en-tête.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">status_code</code></td>
+          <td>entier</td>
+          <td>Code d'état de la réponse.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">duration</code></td>
+          <td>entier 64</td>
+          <td>Durée de la requête en nanosecondes.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="SessionSummary_fields">Champs SessionSummary</h3>
+    <p>Contient un résumé des insertions publicitaires pour la session.</p>
+    <p>Comprend <a href="#Common_fields">Champs communs</a>.</p>
+    <table class="bcls-table">
+      <caption class="bcls-caption--table">Champs SessionSummary</caption>
+      <thead class="bcls-table__head">
+        <tr>
+          <th>Champ</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody class="bcls-table__body">
+        <tr>
+          <td><code translate="No">odur</code></td>
+          <td>entier 64</td>
+          <td>OriginalDurée des annonces destinées à être insérées. La valeur est en nanosecondes.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">rdur</code></td>
+          <td>entier 64</td>
+          <td>RequestedDuration peut différer de OriginalDuration dans les flux en direct en fonction du moment où la session se connecte pendant une pause publicitaire. Par exemple, la session rejoint 10 secondes dans 30 s adbreak, Live demandera 20 annonces (odur=30, rdur=20). La valeur est en nanosecondes.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">sdur</code></td>
+          <td>entier 64</td>
+          <td>SubstitutedDuration est la durée des morceaux en direct remplacés par des publicités. Cette valeur peut différer de OriginalDuration en fonction de la durée des annonces renvoyées par le fournisseur et si une ardoise a été insérée.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">ad_count</code></td>
+          <td>entier</td>
+          <td>Nombre d'annonces insérées.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">ads</code></td>
+          <td>[]<a href="#AdSummary_fields">Résumé de l'annonce</a></td>
+          <td>Liste des résumés de chaque annonce insérée.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">sls</code></td>
+          <td>booléen</td>
+          <td>SLS est vrai si la coupure publicitaire a activé SLS en direct.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">client_only_tracking</code></td>
+          <td>booléen</td>
+          <td>ClientOnlyTracking est vrai si la coupure publicitaire a activé le suivi du client en direct uniquement.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="AdSummary_fields">Champs AdSummary</h3>
+    <table class="bcls-table">
+      <caption class="bcls-caption--table">Champs AdSummary</caption>
+      <thead class="bcls-table__head">
+        <tr>
+          <th>Champ</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody class="bcls-table__body">
+        <tr>
+          <td><code translate="No">imps</code></td>
+          <td>[]<a href="#ImpressionSummary_fields">Résumé des impressions</a></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><code translate="No">fk</code></td>
+          <td>chaîne</td>
+          <td>Clé étrangère de la création pour cette annonce.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">type</code></td>
+          <td>chaîne</td>
+          <td>Type d'annonce. par exemple preroll, midroll, etc.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">cdur</code></td>
+          <td>entier 64</td>
+          <td>CreativeDuration est la durée de cette annonce. La valeur est en nanosecondes.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="ImpressionSummary_fields">Champs ImpressionSummary</h3>
+    <table class="bcls-table">
+      <caption class="bcls-caption--table">Champs ImpressionSummary</caption>
+      <thead class="bcls-table__head">
+        <tr>
+          <th>Champ</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody class="bcls-table__body">
+        <tr>
+          <td><code translate="No">type</code></td>
+          <td>chaîne</td>
+          <td>Type d'impression. <code translate="no">AdStart</code></code>, <code translate="no">AdComplete</code></code>, <code translate="No">AdFirstQuartile</code></code>, <code translate="No">AdMidpoint</code></code>ou <code translate="No"><code translate="No">AdThirdQuartile</code></code></code>.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">url</code></td>
+          <td>chaîne</td>
+          <td>URL à laquelle envoyer l'impression.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="AdRequest_fields">Champs AdRequest</h3>
+    <p>Contient les données de requête et de réponse HTTP avec le fournisseur d'annonces.</p>
+    <p>Comprend <a href="#Common_fields">Champs communs</a> et <a href="#HTTP_fields">Champs HTTP</a></p>
+    <table class="bcls-table">
+      <caption class="bcls-caption--table">Champs AdRequest</caption>
+      <thead class="bcls-table__head">
+        <tr>
+          <th>Champ</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody class="bcls-table__body">
+        <tr>
+          <td><code translate="No">provider</code></td>
+          <td>chaîne</td>
+          <td>Type de fournisseur d'annonces, par exemple vast3, vmap, etc.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="Creative_fields">Les champs Creative</h3>
+    <p>Contient des informations sur la création publicitaire du fournisseur de publicité.</p>
+    <p>Comprend <a href="#Common_fields">Champs communs</a>.</p>
+    <table class="bcls-table">
+      <caption class="bcls-caption--table">Les champs Creative</caption>
+      <thead class="bcls-table__head">
+        <tr>
+          <th>Champ</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody class="bcls-table__body">
+        <tr>
+          <td><code translate="No">state</code></td>
+          <td>chaîne</td>
+          <td>
+            État de la création au moment de la demande.
+            <p>Valeurs pour la VOD :</p>
+            <ul>
+              <li><code translate="no">active</code></code> - la créativité est active</li>
+              <li><code translate="no">missing_fk</code></code> - la clé étrangère n'était pas présente sur l'annonce</li>
+              <li><code translate="no">missing_url</code></code> - L'URL n'était pas présente dans l'annonce</li>
+              <li><code translate="no">internal_error</code></code> - erreur interne lors du traitement de la création</li>
+              <li><code translate="no">no_title_id</code></code> - n'a pas réussi à obtenir le titre de l'annonce</li>
+              <li><code translate="no">title_metadata_error</code></code> - erreur lors du traitement du titre de l'annonce</li>
+              <li><code translate="no">rendition_mismatch</code></code> - les débits binaires ou les rapports d'aspect entre le contenu et la publicité ne concordent pas</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><code translate="No">fk</code></td>
+          <td>chaîne</td>
+          <td>Clé étrangère pour la création.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">record_id</code></td>
+          <td>chaîne</td>
+          <td>Utilisé par la VOD.</td>
+        </tr>
+        <tr>
+          <td><code translate="No">source_url</code></td>
+          <td>chaîne</td>
+          <td>URL source de la création.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="Impression_fields">Champs d'impression</h3>
+    <p>Tous les types de journaux partagent ces champs.</p>
+    <p>Comprend <a href="#Common_fields">Champs communs</a> et <a href="#HTTP_fields">Champs HTTP</a>.</p>
+    <table class="bcls-table">
+      <caption class="bcls-caption--table">Champs d'impression</caption>
+      <thead class="bcls-table__head">
+        <tr>
+          <th>Champ</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody class="bcls-table__body">
+        <tr>
+          <td><code translate="No">impression_type</code></td>
+          <td>chaîne</td>
+          <td>Type d'impression. par exemple AdStart, AdComplete, etc.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</article>
+<!-- <div class="col-sm-2 right-side-bar" style="display: inline-block;max-width: 20%;"> -->
+  
+  <nav class="right-side-nav" id="right_side_nav">
+    <h6 class="toc">Contenu de la page</h6>
+    <ul id="in_page_nav" class="list-none"></ul>
+  </nav>
+  
+<!-- </div> -->
+</div>
+</div>
+</div>
+<div class="page-content" style="background-color: rgb(1, 5, 14);">
+  <div class="container" style="width: 50%;">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md">
+          <h5 class="h5-text">Assistance Brightcove</h5>
+          <ul class="list-unstyled text-small" style="color: white ;">
+            <li><a class="a-text" href="https://status.brightcove.com">État du système</a></li>
+            <li><a class="a-text" href="https://supportportal.brightcove.com">Contacter le support</a></li>
+            <li><a class="a-text" href="https://support.brightcove.com/search.html">Rechercher dans toute la documentation</a></li>
+          </ul>
+        </div>
+      
+        <div class="col-6 col-md">
+          <h5 class="h5-text">Formation</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="a-text" href="https://studio.support.brightcove.com/get-started/training/online-training-courses.html">Cours en ligne</a></li>
+            <li><a class="a-text" href="https://studio.support.brightcove.com/get-started/training/register-training.html">S'inscrire à un cours</a></li>
+            <li><a class="a-text" href="https://academy.brightcove.com/">Académie Brightcove</a></li>
+          </ul>
+        </div>
+      
+        <div class="col-6 col-md">
+          <h5 class="h5-text">Brightcove</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="a-text" href="https://www.brightcove.com">BrightCove.com</a></li>
+            <li><a class="a-text" href="https://community.brightcove.com/s/">Forum communautaire Bright Spot</a></li>
+            <li><a class="a-text" href="https://support.brightcove.com/product-updates.html">Notes de mise à jour du produit</a></li>
+            <li><a class="a-text" href="https://support.brightcove.com/doc-updates.html">Mise à jour de la documentation</a></li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© Brightcove Inc. Tous droits réservés.</p>
+      <a class="a-text" href="https://www.brightcove.com/en/legal/privacy">Protection de la vie privée</a> <a class="a-text" href="https://www.brightcove.com/en/terms-and-conditions">Conditions d'utilisation &amp; Conditions</a>
+
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" target="_blank" class="gf-social-linkedin" style="margin-right: 1rem;"><i data-feather="linkedin" style="color:#8E9093;height: 1.25rem;"></i></a></li>
+
+        <li class="ms-3"><a href="https://twitter.com/brightcove" title="Twitter" target="_blank" class="gf-social-twitter" style="margin-right: 1rem;"><i data-feather="twitter" style="color:#8E9093;height: 1.25rem;"></i></a></li>
+
+        <li class="ms-3"><a href="https://www.facebook.com/Brightcove" title="Facebook" target="_blank" class="gf-social-facebook"><i data-feather="facebook" style="color:#8E9093;height: 1.25rem;"></i></a></li>
+      </ul>
+      </div>
+    </footer>
+  </div>
+</div>
+
+
+<script translate="no">
+  var searchBox = sajari.init({
+    mode: "search-box",
+    project: "1588255093746585379", // Set this to your project.
+    collection: "brightcove-documentation", // Set this to your collection.
+    instantPipeline: "autocomplete", // Pipeline used as you type
+    inputPlaceholder: "Search", // Input element placeholder,
+    styling: {
+      components: {
+        
+        input: {
+          container: {
+          backgroundColor: 'white',
+          }
+        
+        }
+      }
+    },
+    maxSuggestions: 5, // Maximum number of suggestions to show
+      attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to
+  });
+
+  
+
+
+    searchBox("sub", "pipeline.search-sent", function (_, query) {
+    window.location = "/search.html?q=" + encodeURIComponent(query.q);
+    });
+  
+  </script>
+  
+  <!-- Javascript -->          
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/popper.min.js"></script>
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+
+
+  <!-- Page Specific JS -->
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/smoothscroll.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script> -->
+  <!-- <script src="/assets/s-site-assets-template-stylesheets/js/highlight-custom.js"></script>  -->
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+  <script src="/assets/s-site-assets-template-stylesheets/js/docs.js"></script> 
+
+  <!-- original footer components -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="/assets/s-site-assets-scripts/https-fix.js"></script>
+  <script src="/assets/s-site-assets-scripts/setDate.js"></script>
+  <script src="/assets/s-site-assets-scripts/selector.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/prism.js"></script>
+  <script src="/assets/s-site-assets-scripts/prism-normalize.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/site.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/learning-paths/learning-paths.js"></script>
+  <!-- <script src="/assets/s-site-assets-scripts/site.js"></script> -->
+  <script src="/assets/s-site-assets-scripts/tabs.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/toc-new-template.js"></script>
+  
+  <script src="/assets/js/sites_nav.js"></script>
+  <script src="/assets/s-site-assets-scripts/bcls-utils.js"></script>
+  <script src="/assets/s-site-assets-scripts/local-link-fix.js"></script>
+  <script src="/assets/s-site-assets-scripts/sajari-reindex.js"></script>
+  <script src="/assets/js/feedback.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/sajari-search-foot.js"></script>
+  
+  <script translate="no">
+    feather.replace()
+  </script>
+  <!-- <script src="/assets/js/sajari-index.js"></script> -->
+  <script src="/assets/s-site-assets-scripts/in-app.js"></script>
+  <style translate="no">
+    a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
+      background-color: lightblue;
+    }
+    div.sj-tabs__tab {
+      margin-top: 3rem;
+      margin-left: .3rem;
+      border-top-left-radius: .4rem;
+      border-top-right-radius: .4rem;
+      background-color:#e8e8e8;
+    }
+
+    div.sj-tabs__tab.sj-tabs__tab--selected {
+      border-bottom-color: crimson;
+      background-color: #f8f8f8;
+    }
+
+    p.sj-results__result__description.css-p9jvyt {
+      font-size: 1rem;
+    }
+
+    .sj-result__text.css-31l7gp h3 {
+      color: navy;
+      font-size: 1.4rem;
+    }
+    </style>
+
+  </body>
+</html> 
